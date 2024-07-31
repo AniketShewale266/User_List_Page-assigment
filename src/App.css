@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal; */
+
+}
+
+main{
+  /* border: 2px solid green; */
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-inline: auto;
+}
+
+header{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: 5px;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+.right-filter{
+  display: flex;
+  gap: 15px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.select-container .filter-box{
+  padding: 8px 12px;
+  outline: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.filter-box option{
+  /* border: none;
+  outline: none; */
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  
+}
+
+.user-list{
+  /* border: 2px solid red; */
+  margin-inline: 5px;
+}
+
+.user-table {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid rgb(218, 214, 214);
+  border-collapse: collapse;
+  border-radius: 10px; 
+}
+
+.user-table thead {
+  text-align: left;
+  
+}
+
+.user-img{
+  width: 50px;
+}
+
+.asce-desc-column div {
+  display: flex;
+}
+
+.asce-desc-column span {
+  margin-right: 6px;
+}
+
+.arrow {
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.up-arrow:active {
+  transform: translateY(-2px);
+  
+}
+
+.down-arrow {
+  margin-left: 4px;
+}
+
+.down-arrow:active {
+  transform: translateY(2px);
+}
+
+.user-table th{
+  border-bottom: 1px solid rgb(218, 214, 214);
+  padding: 20px 8px;
+  border-radius: 20px;
+}
+
+.user-table td {
+  border-bottom: 1px solid rgb(218, 214, 214);
+  text-align: left;
+  padding: 4px 8px;
+}
+
+
