@@ -1,6 +1,19 @@
 # User List Page
 Concept Used: useState, useEffect Hooks, Fetch API
 
+## Features
+
+- Sorting by columns (ID, Name, Age)
+- Filtering by Gender and Country
+- Pagination with Infinite Scrolling (attempted)
+
+## Status
+
+### Pagination with Infinite Scrolling
+
+I have attempted to implement pagination with infinite scrolling. However, there are some issues that I haven't been able to resolve yet.
+
+
 ## Home Screen
 ![image](https://github.com/user-attachments/assets/378daac2-5eec-4fee-8f5b-5379669a73d3)
 
