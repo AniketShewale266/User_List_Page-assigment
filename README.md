@@ -13,9 +13,17 @@ Concept Used: useState, useEffect Hooks, Fetch API
 
 I have attempted to implement pagination with infinite scrolling. However, there are some issues that I haven't been able to resolve yet.
 
-
 ## Home Screen
 ![image](https://github.com/user-attachments/assets/378daac2-5eec-4fee-8f5b-5379669a73d3)
+
+## Sort By ID (Ascending and Descending)
+![image](https://github.com/user-attachments/assets/26e36588-42e0-47fd-82ba-209248ab91d3)
+
+## Sort by Name (Ascending and Descending)
+![image](https://github.com/user-attachments/assets/e7d4c0ee-015c-49d3-9e36-35999899d842)
+
+## Sort by Age (Ascending and Descending)
+![image](https://github.com/user-attachments/assets/a8687845-551f-498a-9696-8e2957f4218c)
 
 ## Filter by Gender
 ![image](https://github.com/user-attachments/assets/f8c9fbb2-3af6-4dba-93c9-7df566558e5a)
